@@ -1,0 +1,6 @@
+framework module Pods_Pixi_PixiUITests {
+  umbrella header "Pods-Pixi-PixiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

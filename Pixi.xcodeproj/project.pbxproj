@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1C5F45311227A0A957D077 /* Pods_Pixi_PixiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19713B741C96284CA114717D /* Pods_Pixi_PixiUITests.framework */; };
+		4C33C3F626760A200090A844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33C3F526760A200090A844 /* AppDelegate.swift */; };
+		4C33C3F826760A280090A844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C33C3F726760A280090A844 /* SceneDelegate.swift */; };
+		4C33C3FD26760DEA0090A844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCBC46267247BE00B6E4EB /* LaunchScreen.storyboard */; };
+		4C33C3FE26760DEA0090A844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCBC41267247BD00B6E4EB /* Main.storyboard */; };
+		4C66B26D267294F100065722 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C66B26C267294F100065722 /* NetworkManager.swift */; };
+		4C7DCAAD2672833F00551C21 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7DCAAC2672833F00551C21 /* AlbumCell.swift */; };
+		4C7DCAB526728D3200551C21 /* PhotoAlbumAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7DCAB426728D3200551C21 /* PhotoAlbumAPI.swift */; };
+		4C8631E22676331B00BBB36B /* PictureDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8631E12676331B00BBB36B /* PictureDataManager.swift */; };
+		4C8631E4267648F500BBB36B /* AlbumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8631E3267648F500BBB36B /* AlbumStore.swift */; };
+		4C8E318E2672A1DE007FDAE2 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E318D2672A1DE007FDAE2 /* PictureViewController.swift */; };
+		4C8E31902672A5EF007FDAE2 /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E318F2672A5EF007FDAE2 /* PhotoResponse.swift */; };
+		4C8E31922672A7BE007FDAE2 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E31912672A7BE007FDAE2 /* PhotoCell.swift */; };
+		4C8E3195267369AF007FDAE2 /* PhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E3194267369AF007FDAE2 /* PhotoAlbum.swift */; };
+		4C8E319726736A24007FDAE2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E319626736A24007FDAE2 /* Photo.swift */; };
+		4CDCBC40267247BD00B6E4EB /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC3F267247BD00B6E4EB /* AlbumViewController.swift */; };
+		4CDCBC45267247BE00B6E4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCBC44267247BE00B6E4EB /* Assets.xcassets */; };
+		4CDCBC53267247BE00B6E4EB /* PixiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC52267247BE00B6E4EB /* PixiTests.swift */; };
+		4CDCBC5E267247BE00B6E4EB /* PixiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC5D267247BE00B6E4EB /* PixiUITests.swift */; };
+		4CDCBC6C26724C8100B6E4EB /* AlbumDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC6B26724C8100B6E4EB /* AlbumDataManager.swift */; };
+		4CDCBC6E26724CC400B6E4EB /* PhotoAlbumResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCBC6D26724CC400B6E4EB /* PhotoAlbumResponse.swift */; };
+		9084214729110ECBA5889791 /* Pods_Pixi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C085EECB59423BE7042C9A /* Pods_Pixi.framework */; };
+		C10B36C2D495DB3A5917E46C /* Pods_PixiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BACA5CE6313E75C4C75E93 /* Pods_PixiTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDCBC4F267247BE00B6E4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDCBC30267247BD00B6E4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDCBC37267247BD00B6E4EB;
+			remoteInfo = Pixi;
+		};
+		4CDCBC5A267247BE00B6E4EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDCBC30267247BD00B6E4EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDCBC37267247BD00B6E4EB;
+			remoteInfo = Pixi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19713B741C96284CA114717D /* Pods_Pixi_PixiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixi_PixiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C085EECB59423BE7042C9A /* Pods_Pixi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46BE4E1AD38E94A3B9773242 /* Pods-PixiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixiTests.release.xcconfig"; path = "Target Support Files/Pods-PixiTests/Pods-PixiTests.release.xcconfig"; sourceTree = "<group>"; };
+		47F0716534A6BD45C95C9B14 /* Pods-Pixi-PixiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixi-PixiUITests.release.xcconfig"; path = "Target Support Files/Pods-Pixi-PixiUITests/Pods-Pixi-PixiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48E64C3E192F79F14A9E602C /* Pods-Pixi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixi.debug.xcconfig"; path = "Target Support Files/Pods-Pixi/Pods-Pixi.debug.xcconfig"; sourceTree = "<group>"; };
+		4C33C3F526760A200090A844 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C33C3F726760A280090A844 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C33C3F926760A2E0090A844 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Pixi/Info.plist; sourceTree = SOURCE_ROOT; };
+		4C3DE61526765DE400F65053 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4C66B26C267294F100065722 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = Pixi/DataService/Network/NetworkManager.swift; sourceTree = SOURCE_ROOT; };
+		4C7DCAAC2672833F00551C21 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		4C7DCAB426728D3200551C21 /* PhotoAlbumAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoAlbumAPI.swift; path = Pixi/DataService/Network/PhotoAlbumAPI.swift; sourceTree = SOURCE_ROOT; };
+		4C8631E12676331B00BBB36B /* PictureDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDataManager.swift; sourceTree = "<group>"; };
+		4C8631E3267648F500BBB36B /* AlbumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumStore.swift; sourceTree = "<group>"; };
+		4C8E318D2672A1DE007FDAE2 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		4C8E318F2672A5EF007FDAE2 /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
+		4C8E31912672A7BE007FDAE2 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		4C8E3194267369AF007FDAE2 /* PhotoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbum.swift; sourceTree = "<group>"; };
+		4C8E319626736A24007FDAE2 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		4CDCBC38267247BD00B6E4EB /* Pixi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDCBC3F267247BD00B6E4EB /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		4CDCBC42267247BD00B6E4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CDCBC44267247BE00B6E4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDCBC47267247BE00B6E4EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CDCBC4E267247BE00B6E4EB /* PixiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDCBC52267247BE00B6E4EB /* PixiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixiTests.swift; sourceTree = "<group>"; };
+		4CDCBC54267247BE00B6E4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDCBC59267247BE00B6E4EB /* PixiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDCBC5D267247BE00B6E4EB /* PixiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixiUITests.swift; sourceTree = "<group>"; };
+		4CDCBC5F267247BE00B6E4EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDCBC6B26724C8100B6E4EB /* AlbumDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDataManager.swift; sourceTree = "<group>"; };
+		4CDCBC6D26724CC400B6E4EB /* PhotoAlbumResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumResponse.swift; sourceTree = "<group>"; };
+		86B4E58AE11571737877AAD8 /* Pods-Pixi-PixiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixi-PixiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Pixi-PixiUITests/Pods-Pixi-PixiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94BACA5CE6313E75C4C75E93 /* Pods_PixiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A299E56AD67E6E233545F925 /* Pods-Pixi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pixi.release.xcconfig"; path = "Target Support Files/Pods-Pixi/Pods-Pixi.release.xcconfig"; sourceTree = "<group>"; };
+		BE781CF3F0F1AE5B7E40ACC2 /* Pods-PixiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixiTests.debug.xcconfig"; path = "Target Support Files/Pods-PixiTests/Pods-PixiTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDCBC35267247BD00B6E4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9084214729110ECBA5889791 /* Pods_Pixi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCBC4B267247BE00B6E4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10B36C2D495DB3A5917E46C /* Pods_PixiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCBC56267247BE00B6E4EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1C5F45311227A0A957D077 /* Pods_Pixi_PixiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365BF968D989239113048EEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C085EECB59423BE7042C9A /* Pods_Pixi.framework */,
+				19713B741C96284CA114717D /* Pods_Pixi_PixiUITests.framework */,
+				94BACA5CE6313E75C4C75E93 /* Pods_PixiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C33C3F2267608930090A844 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4C7DCAAC2672833F00551C21 /* AlbumCell.swift */,
+				4C8E31912672A7BE007FDAE2 /* PhotoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4C33C3F3267608C90090A844 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC46267247BE00B6E4EB /* LaunchScreen.storyboard */,
+				4CDCBC41267247BD00B6E4EB /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4C33C3F4267609C20090A844 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4C33C3F526760A200090A844 /* AppDelegate.swift */,
+				4C33C3F726760A280090A844 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4C33C3FB26760A620090A844 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC44267247BE00B6E4EB /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		4C33C3FC26760B6B0090A844 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC6B26724C8100B6E4EB /* AlbumDataManager.swift */,
+				4C8631E12676331B00BBB36B /* PictureDataManager.swift */,
+				4C8631E3267648F500BBB36B /* AlbumStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C7DCAB026728BAA00551C21 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC3F267247BD00B6E4EB /* AlbumViewController.swift */,
+				4C8E318D2672A1DE007FDAE2 /* PictureViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4C7DCAB126728BBB00551C21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C33C3F3267608C90090A844 /* Storyboard */,
+				4C7DCAB026728BAA00551C21 /* Scenes */,
+				4C33C3F2267608930090A844 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C7DCAB226728BD700551C21 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				4C7DCAB326728D1100551C21 /* DataModel */,
+				4C8E3193267361C7007FDAE2 /* Network */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		4C7DCAB326728D1100551C21 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC6D26724CC400B6E4EB /* PhotoAlbumResponse.swift */,
+				4C8E318F2672A5EF007FDAE2 /* PhotoResponse.swift */,
+				4C8E3194267369AF007FDAE2 /* PhotoAlbum.swift */,
+				4C8E319626736A24007FDAE2 /* Photo.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		4C8E3193267361C7007FDAE2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4C7DCAB426728D3200551C21 /* PhotoAlbumAPI.swift */,
+				4C66B26C267294F100065722 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4CDCBC2F267247BD00B6E4EB = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC3A267247BD00B6E4EB /* Pixi */,
+				4C33C3F4267609C20090A844 /* Application */,
+				4C33C3FB26760A620090A844 /* Ressources */,
+				4CDCBC51267247BE00B6E4EB /* PixiTests */,
+				4CDCBC5C267247BE00B6E4EB /* PixiUITests */,
+				4CDCBC39267247BD00B6E4EB /* Products */,
+				BD8C9A8F8D9D35E104B96612 /* Pods */,
+				365BF968D989239113048EEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDCBC39267247BD00B6E4EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC38267247BD00B6E4EB /* Pixi.app */,
+				4CDCBC4E267247BE00B6E4EB /* PixiTests.xctest */,
+				4CDCBC59267247BE00B6E4EB /* PixiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDCBC3A267247BD00B6E4EB /* Pixi */ = {
+			isa = PBXGroup;
+			children = (
+				4C3DE61526765DE400F65053 /* README.md */,
+				4C33C3F926760A2E0090A844 /* Info.plist */,
+				4C7DCAB126728BBB00551C21 /* View */,
+				4C33C3FC26760B6B0090A844 /* Model */,
+				4C7DCAB226728BD700551C21 /* DataService */,
+			);
+			path = Pixi;
+			sourceTree = "<group>";
+		};
+		4CDCBC51267247BE00B6E4EB /* PixiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC52267247BE00B6E4EB /* PixiTests.swift */,
+				4CDCBC54267247BE00B6E4EB /* Info.plist */,
+			);
+			path = PixiTests;
+			sourceTree = "<group>";
+		};
+		4CDCBC5C267247BE00B6E4EB /* PixiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCBC5D267247BE00B6E4EB /* PixiUITests.swift */,
+				4CDCBC5F267247BE00B6E4EB /* Info.plist */,
+			);
+			path = PixiUITests;
+			sourceTree = "<group>";
+		};
+		BD8C9A8F8D9D35E104B96612 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48E64C3E192F79F14A9E602C /* Pods-Pixi.debug.xcconfig */,
+				A299E56AD67E6E233545F925 /* Pods-Pixi.release.xcconfig */,
+				86B4E58AE11571737877AAD8 /* Pods-Pixi-PixiUITests.debug.xcconfig */,
+				47F0716534A6BD45C95C9B14 /* Pods-Pixi-PixiUITests.release.xcconfig */,
+				BE781CF3F0F1AE5B7E40ACC2 /* Pods-PixiTests.debug.xcconfig */,
+				46BE4E1AD38E94A3B9773242 /* Pods-PixiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CDCBC37267247BD00B6E4EB /* Pixi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDCBC62267247BE00B6E4EB /* Build configuration list for PBXNativeTarget "Pixi" */;
+			buildPhases = (
+				2A77A69AC61911B59C2673DF /* [CP] Check Pods Manifest.lock */,
+				4CDCBC34267247BD00B6E4EB /* Sources */,
+				4CDCBC35267247BD00B6E4EB /* Frameworks */,
+				4CDCBC36267247BD00B6E4EB /* Resources */,
+				5DC17BE68F836111FFBFC117 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pixi;
+			productName = Pixi;
+			productReference = 4CDCBC38267247BD00B6E4EB /* Pixi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDCBC4D267247BE00B6E4EB /* PixiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDCBC65267247BE00B6E4EB /* Build configuration list for PBXNativeTarget "PixiTests" */;
+			buildPhases = (
+				BE570149549BDD5A8FD97DF6 /* [CP] Check Pods Manifest.lock */,
+				4CDCBC4A267247BE00B6E4EB /* Sources */,
+				4CDCBC4B267247BE00B6E4EB /* Frameworks */,
+				4CDCBC4C267247BE00B6E4EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDCBC50267247BE00B6E4EB /* PBXTargetDependency */,
+			);
+			name = PixiTests;
+			productName = PixiTests;
+			productReference = 4CDCBC4E267247BE00B6E4EB /* PixiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CDCBC58267247BE00B6E4EB /* PixiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDCBC68267247BE00B6E4EB /* Build configuration list for PBXNativeTarget "PixiUITests" */;
+			buildPhases = (
+				C93AADFA246B4B2D2D3624D5 /* [CP] Check Pods Manifest.lock */,
+				4CDCBC55267247BE00B6E4EB /* Sources */,
+				4CDCBC56267247BE00B6E4EB /* Frameworks */,
+				4CDCBC57267247BE00B6E4EB /* Resources */,
+				377D5BB333F8B9C1068F746F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDCBC5B267247BE00B6E4EB /* PBXTargetDependency */,
+			);
+			name = PixiUITests;
+			productName = PixiUITests;
+			productReference = 4CDCBC59267247BE00B6E4EB /* PixiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDCBC30267247BD00B6E4EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Maria Wilfling";
+				TargetAttributes = {
+					4CDCBC37267247BD00B6E4EB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4CDCBC4D267247BE00B6E4EB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4CDCBC37267247BD00B6E4EB;
+					};
+					4CDCBC58267247BE00B6E4EB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4CDCBC37267247BD00B6E4EB;
+					};
+				};
+			};
+			buildConfigurationList = 4CDCBC33267247BD00B6E4EB /* Build configuration list for PBXProject "Pixi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDCBC2F267247BD00B6E4EB;
+			productRefGroup = 4CDCBC39267247BD00B6E4EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDCBC37267247BD00B6E4EB /* Pixi */,
+				4CDCBC4D267247BE00B6E4EB /* PixiTests */,
+				4CDCBC58267247BE00B6E4EB /* PixiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDCBC36267247BD00B6E4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C33C3FD26760DEA0090A844 /* LaunchScreen.storyboard in Resources */,
+				4C33C3FE26760DEA0090A844 /* Main.storyboard in Resources */,
+				4CDCBC45267247BE00B6E4EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCBC4C267247BE00B6E4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCBC57267247BE00B6E4EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A77A69AC61911B59C2673DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pixi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		377D5BB333F8B9C1068F746F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pixi-PixiUITests/Pods-Pixi-PixiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pixi-PixiUITests/Pods-Pixi-PixiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pixi-PixiUITests/Pods-Pixi-PixiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC17BE68F836111FFBFC117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pixi/Pods-Pixi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pixi/Pods-Pixi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pixi/Pods-Pixi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE570149549BDD5A8FD97DF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93AADFA246B4B2D2D3624D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pixi-PixiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDCBC34267247BD00B6E4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDCBC40267247BD00B6E4EB /* AlbumViewController.swift in Sources */,
+				4C66B26D267294F100065722 /* NetworkManager.swift in Sources */,
+				4C8631E22676331B00BBB36B /* PictureDataManager.swift in Sources */,
+				4C8E3195267369AF007FDAE2 /* PhotoAlbum.swift in Sources */,
+				4CDCBC6E26724CC400B6E4EB /* PhotoAlbumResponse.swift in Sources */,
+				4C33C3F626760A200090A844 /* AppDelegate.swift in Sources */,
+				4C33C3F826760A280090A844 /* SceneDelegate.swift in Sources */,
+				4CDCBC6C26724C8100B6E4EB /* AlbumDataManager.swift in Sources */,
+				4C8E31902672A5EF007FDAE2 /* PhotoResponse.swift in Sources */,
+				4C8E319726736A24007FDAE2 /* Photo.swift in Sources */,
+				4C7DCAB526728D3200551C21 /* PhotoAlbumAPI.swift in Sources */,
+				4C8E318E2672A1DE007FDAE2 /* PictureViewController.swift in Sources */,
+				4C8E31922672A7BE007FDAE2 /* PhotoCell.swift in Sources */,
+				4C7DCAAD2672833F00551C21 /* AlbumCell.swift in Sources */,
+				4C8631E4267648F500BBB36B /* AlbumStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCBC4A267247BE00B6E4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDCBC53267247BE00B6E4EB /* PixiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCBC55267247BE00B6E4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDCBC5E267247BE00B6E4EB /* PixiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDCBC50267247BE00B6E4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDCBC37267247BD00B6E4EB /* Pixi */;
+			targetProxy = 4CDCBC4F267247BE00B6E4EB /* PBXContainerItemProxy */;
+		};
+		4CDCBC5B267247BE00B6E4EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDCBC37267247BD00B6E4EB /* Pixi */;
+			targetProxy = 4CDCBC5A267247BE00B6E4EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CDCBC41267247BD00B6E4EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDCBC42267247BD00B6E4EB /* Base */,
+			);
+			name = Main.storyboard;
+			path = Pixi/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		4CDCBC46267247BE00B6E4EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDCBC47267247BE00B6E4EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = Pixi/View;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CDCBC60267247BE00B6E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CDCBC61267247BE00B6E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDCBC63267247BE00B6E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E64C3E192F79F14A9E602C /* Pods-Pixi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57VG6LQD2Z;
+				INFOPLIST_FILE = Pixi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariaWilfling.Pixi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CDCBC64267247BE00B6E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A299E56AD67E6E233545F925 /* Pods-Pixi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57VG6LQD2Z;
+				INFOPLIST_FILE = Pixi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariaWilfling.Pixi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CDCBC66267247BE00B6E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE781CF3F0F1AE5B7E40ACC2 /* Pods-PixiTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57VG6LQD2Z;
+				INFOPLIST_FILE = PixiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariaWilfling.PixiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixi.app/Pixi";
+			};
+			name = Debug;
+		};
+		4CDCBC67267247BE00B6E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BE4E1AD38E94A3B9773242 /* Pods-PixiTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57VG6LQD2Z;
+				INFOPLIST_FILE = PixiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariaWilfling.PixiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pixi.app/Pixi";
+			};
+			name = Release;
+		};
+		4CDCBC69267247BE00B6E4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86B4E58AE11571737877AAD8 /* Pods-Pixi-PixiUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57VG6LQD2Z;
+				INFOPLIST_FILE = PixiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariaWilfling.PixiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixi;
+			};
+			name = Debug;
+		};
+		4CDCBC6A267247BE00B6E4EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47F0716534A6BD45C95C9B14 /* Pods-Pixi-PixiUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57VG6LQD2Z;
+				INFOPLIST_FILE = PixiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariaWilfling.PixiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pixi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDCBC33267247BD00B6E4EB /* Build configuration list for PBXProject "Pixi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDCBC60267247BE00B6E4EB /* Debug */,
+				4CDCBC61267247BE00B6E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDCBC62267247BE00B6E4EB /* Build configuration list for PBXNativeTarget "Pixi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDCBC63267247BE00B6E4EB /* Debug */,
+				4CDCBC64267247BE00B6E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDCBC65267247BE00B6E4EB /* Build configuration list for PBXNativeTarget "PixiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDCBC66267247BE00B6E4EB /* Debug */,
+				4CDCBC67267247BE00B6E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDCBC68267247BE00B6E4EB /* Build configuration list for PBXNativeTarget "PixiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDCBC69267247BE00B6E4EB /* Debug */,
+				4CDCBC6A267247BE00B6E4EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDCBC30267247BD00B6E4EB /* Project object */;
+}
